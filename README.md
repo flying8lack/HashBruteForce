@@ -1,13 +1,15 @@
-# HashBruteForce
-Python Hash Cracker i built by myself for Hackthissite challanges, but could be used anywhere else :)
+# Hash Brute Force
+Python Hash Cracker, was built by myself for [Hackthissite]{https://www.hackthissite.org} challanges, but could be used anywhere else :)
 
 
-this software is owned and written by "flying8lack" using python, all it does is ask you to input hash type, hash, minimal posssible length of the
+this software is owned and written by **flying8lack** using python, all it does is ask you to input hash type, hash, minimal posssible length of the
 original password (put 0 if you don't know) and level of possiable characters.
+
+but
 #########################################################################################
 
 available levels:
-  level 1 - (0-9);
-  level 2 - (0-9 and a-z);
-  level 3 - (0-9, a-z and A-Z);
-  level 4 - (a-z);
+1. (0-9);
+2. (0-9 and a-z);
+3. (0-9, a-z and A-Z);
+4. (a-z);
