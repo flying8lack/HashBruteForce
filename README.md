@@ -1,4 +1,5 @@
-# Hash Brute Force
+#Hash Brute Force
+## written in python 3.5
 Python Hash Cracker, was built by myself for [Hackthissite](https://www.hackthissite.org/) challanges, but could be used anywhere else :)
 
 
