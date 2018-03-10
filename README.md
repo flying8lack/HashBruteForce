@@ -3,9 +3,9 @@ Python Hash Cracker, was built by myself for [Hackthissite](https://www.hackthis
 
 
 this software is owned and written by **flying8lack** using python, all it does is ask you to input hash type, hash, minimal posssible length of the
-original password (put 0 if you don't know) and level of possiable characters.
+original password (put 0 if you don't know) and level of possible characters.
 
-this program will first attempt using the rainbow table [hash_db.txt](hash_db.txt), if it fails it will try brute force attack unitl it reach maximum of 10 character in length.
+this program will first attempt using the rainbow table [hash_db.txt](hash_db.txt), if it fails it will try brute force attack until it reach maximum of 10 character in length.
 
 you can edit your own rainbow table, but make sure it follow the following format:
 
