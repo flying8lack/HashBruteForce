@@ -1,5 +1,5 @@
 # Hash Brute Force
-Python Hash Cracker, was built by myself for [Hackthissite]{https://www.hackthissite.org} challanges, but could be used anywhere else :)
+Python Hash Cracker, was built by myself for [Hackthissite](https://www.hackthissite.org/) challanges, but could be used anywhere else :)
 
 
 this software is owned and written by **flying8lack** using python, all it does is ask you to input hash type, hash, minimal posssible length of the
