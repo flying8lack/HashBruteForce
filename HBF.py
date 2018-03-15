@@ -11,11 +11,15 @@ if poss_list_option == '1':
     poss_list = '0123456789'
 elif poss_list_option == '2':
     poss_list = '0123456789'+'abcdefghijklmnopqrstuvwxyz'
+elif poss_list_option == '5':
+    poss_list = 'abcdefghijklmnopqrstuvwxyz'.upper()
 elif poss_list_option == '3':
+    #pick this option if you don't know the possible characters in the hash password.
     poss_list = '0123456789'+'abcdefghijklmnopqrstuvwxyz'+'abcdefghijklmnopqrstuvwxyz'.upper()
 elif poss_list_option == '4':
     poss_list = 'abcdefghijklmnopqrstuvwxyz'
 else:
+    print("no such input.")
     quit()
 #poss_list = '0123456789'+'abcdefghijklmnopqrstuvwxyz'+'abcdefghijklmnopqrstuvwxyz'.upper()
 print("cracking..")
