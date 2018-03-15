@@ -28,7 +28,7 @@ with open("hash_db.txt", "r") as file:
         password = password.split(":")
         if password[0] == option_hash:
             if password[1] == hash_in:
-                print("password found, it was {%s}" % password[2])
+                print("password found, it was: %s" % password[2])
                 op = input()
                 quit()
             else:
@@ -44,7 +44,7 @@ for password_length in range(int(minimum_password_length), 10):
         hash_attempt = hashlib.new(option_hash,(''.join(guess)).encode()).hexdigest()
         #print("tried "+''.join(guess))
         if hash_attempt == hash_in:
-            print("found, it is {%s}" % ''.join(guess))
+            print("found, it is: %s" % ''.join(guess))
             with open("hash_db.txt", "a") as file:
                 file.write(option_hash+":"+hash_in+":"+(''.join(guess)+"\n"))
             op = raw_input()
