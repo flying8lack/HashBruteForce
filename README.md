@@ -18,5 +18,5 @@ algorithm_name:hashed_password:original_password
 available levels:
 1. (0-9)
 2. (0-9 and a-z)
-3. (0-9, a-z and A-Z)
+3. (0-9, a-z and A-Z) *pick this if you don't know*
 4. (a-z)
