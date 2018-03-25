@@ -18,6 +18,8 @@ elif poss_list_option == '3':
     poss_list = '0123456789'+'abcdefghijklmnopqrstuvwxyz'+'abcdefghijklmnopqrstuvwxyz'.upper()
 elif poss_list_option == '4':
     poss_list = 'abcdefghijklmnopqrstuvwxyz'
+elif poss_list_option == '5':
+    poss_list = 'abcdefghijklmnopqrstuvwxyz'.upper()
 else:
     print("no such input.")
     quit()
